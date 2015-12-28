@@ -37,8 +37,8 @@
 <h2>
 <a name="Features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
 <h5>Store and retrieve data on most blockchains</h5>
-<p>We are empowering people to publish creative works on an indelible global platform. We believe everyone should have the power to immutably archive their history and creations on the blockchains.</p>
-<p>Use Apertus to immutably archive data on a blockchain. You can later recover the blockpage by entering a single transaction id, the root id.  Wallets must support the standard RPC calls orginally introduced by Bitcoin developers; most currently do.</p>
+<p>Apertus empowers people to publish creative works on indelible global platforms. We believe everyone should have the power to immutably archive their history and creations on the blockchains.</p>
+<p>Apertus can immutably archive data on a blockchain. You can later recover the blockpage by entering a single transaction id; the root id.  Wallets must support the standard RPC calls orginally introduced by Bitcoin developers, most currently do.</p>
 <h5>Monitor one or more blockchains in realtime</h5>
 <p>Apertus converts any compatible blockchain into a publishing hub. Check the "Monitor Blockchains" box on the explore tab, sit back and watch as all data archived by other Apertus users is displayed in the monitoring window.</p>
 <h5>Sign and verify archives</h5>
@@ -46,28 +46,29 @@
 <h5>Proof</h5>
 <p>Apertus uses a handy tool that creates a SHA256 hash of any file. This hash can then be archived on ANY Apertus compatible blockchain. The transaction ID generated during the archive process can later be used to retrieve the hash proving the file existed at the time of the archive. When used in conjunction with a profile (basic token) and a signature, the Proof feature can anchor a point in time using a hash of your work on a blockchain of your choice.  To use this feature click File\Insert\Proof from the main menu, see Apertus \ help \ info for more details.</p>
 <h5>Filter unsafe extensions</h4>
-<p>By default executable files and all web scripting is either filtered or cleansed. Trusting signatures will open this up, or unchecking the Filter box. Never open executable files from an unverified source.</p>
+<p>By default, executable files and all web scripting is either filtered or cleansed. Trusting signatures will open this up, or by unchecking the Filter box. Never open executable files from an unverified source.</p>
 <h5>New to Apertus 0.3.0</h4>
 <p>Authenticated publishing on indelible, long-lived platforms is our primary thrust, however, social-media capabilities is a side-effect. Profile creation lends to social media features as each published items can be used like a news feed. The new Profile feature is streamlining this output as it constitutes a simple blockchain entity; a basic token. Apertus also now has #hashtagging, linking, and public & encrypted messaging. Apertus PGP web of trust applications warrant exploration. Apertus 0.4.0 will include updated token capabilities.</p>
 
 
 <h2>
 <a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
-Note: Apertus is shaping up to be a great publishing tool - but use with caution - Apertus is experimental software - it's NOT wise to have large amounts of valuable cryptocoin in your Apertus-linked wallets - nor be depedent on your private keys for publishing - backup and be smart.
+Note: Apertus is shaping up to be a great publishing tool - but use with caution - Apertus is experimental software - it's NOT wise to have large amounts of valuable cryptocoin in your Apertus-linked wallets - nor be depedent on your private keys for publishing. Backup, and be smart.
 <h5>Install the client</h5>
 <p>Click the link at the top of this page to download the offical Apertus - Disk Drive client. Create a folder on your workstation and unzip the contents of the download into it.<br>
-More detailed instructions can be found by running Apertus (no blockchain needed for this), then clicking help / info.<br>
-Below is a quick help guide:</p>
+More detailed instructions can be found by running Apertus (no blockchain needed for this), then clicking help \ info. Below is a quick help guide.</p>
 <h5>Install a wallet</h5>
-<p>Apertus requires a full wallet to function. Some clients can take days to synchronize, so be patient. Bitcoin Testnet is quicker (see detailed instructions for more info).<br>
+<p>Apertus requires a full wallet to function. Depending on your CPU, Bitcoin & Litecoin can take days to synchronize, but the rest are quicker.  Bitcoin Testnet is quick, and it's easy to get coin. (see detailed instructions for more info).<br>
 Here are a few of our favourites:<br>
-<br><img height=40 src="images\bitcoin_logo_plain.png"> <a href="http://bitcoin.org/en/download">Full Bitcoin Wallet</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height=40 src="images\litecoin_logo_plain.png"> <a href="http://litecoin.org/">Full Litecoin Wallet</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height=40 src="images\dogecoin_logo_plain.png"> <a href="http://dogecoin.com/getting-started/#desktop-wallet">Full Dogecoin Wallet</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-<h5>Enable Wallet RPC Access</h5>
-<p>To enable RPC create a  [CoinName].conf file using notepad  and place it in the Roaming App Data file associated with your wallet.<br>
+<br><img height=40 src="https://en.bitcoin.it/w/images/en/2/29/BC_Logo_.png"> <a href="http://bitcoin.org/en/download">Bitcoin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height=40 src="https://litecoin.info/images/thumb/3/3a/Litecoin-logo.png/600px-Litecoin-logo.png"> <a href="http://litecoin.org/">Litecoin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height=40 src="http://dogecoin.com/imgs/avatar.png"> <a href="http://dogecoin.com/getting-started/#desktop-wallet">Dogecoin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height=40 src="http://i.imgur.com/YEekrxj.png"> <a href="https://mazacoin.org/downloads/">Mazacoin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height=40 src="https://a.thumbs.redditmedia.com/5o05nuc_cPMLzWhNtiSImmm9ueTLcOzQvTOth6vcWs0.jpg"> <a href="http://sourceforge.net/projects/datacoin/files/">Datacoin</a>
+<br>
+<h5>Enable wallet RPC access</h5>
+<p>To enable RPC, create a [CoinName].conf file using notepad, then place it in the Roaming App Data file associated with your wallet.<br>
 <br>Example: C:\Users\[Your user name]\AppData\Roaming\Bitcoin\bitcoin.conf
 <br>Example: C:\Users\[Your user name]\AppData\Roaming\Litecoin\litecoin.conf<br>
-<br>You may need to enable the viewing of hidden folders and files to see the AppData Folder
-<br>Paste the following three lines into your [CoinName].conf file and restart the corresponding wallet. Be sure to change the credentials to something other than this example!
+<br>You may need to enable the viewing of hidden folders and files to see the AppData Folder.
+<br>Paste the following three lines into your [CoinName].conf file and restart the corresponding wallet. Be sure to change the "...CHANGE-ME" credentials to something other than this example :)
 
 <pre><code>server=1
 rpcuser=RPC_USER_CHANGE_ME
@@ -83,7 +84,7 @@ rpcpassword=RPC_PASSWORD_CHANGE_ME
 <br>Change the login and password to match the credentials you entered in the [CoinName].conf file.
 <br>Check the Enable Wallet box.
 <br>Click the Save Button.
-<br>NOTE: Do not alter any other settings unless you really know what your doing..</p>
+<br>NOTE: Do not alter any other settings unless you really know what your doing. (see detailed instructions for more info; adding a coin, etc)</p>
 
 <h2>
 <a name="start-archiving-and-exploring" class="anchor" href="#start-archiving-and-exploring"><span class="octicon octicon-link"></span></a>Start Archiving and Exploring</h2>
