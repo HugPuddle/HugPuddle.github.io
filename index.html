@@ -62,8 +62,8 @@ More detailed instructions can be found by running Apertus (no blockchain needed
 <h5>Install a wallet</h5>
 <p>Apertus requires a full wallet to function. Depending on your CPU, Bitcoin & Litecoin can take days to synchronize, but the rest are quicker.  Bitcoin Testnet is quick, and it's easy to get coin. (see detailed instructions for more info).<br>
 Here are a few of our favourites:<br>
-<br><img height=40 src="https://en.bitcoin.it/w/images/en/2/29/BC_Logo_.png"> <a href="http://bitcoin.org/en/download">Bitcoin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height=40 src="https://litecoin.info/images/thumb/3/3a/Litecoin-logo.png/600px-Litecoin-logo.png"> <a href="http://litecoin.org/">Litecoin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height=40 src="http://dogecoin.com/imgs/avatar.png"> <a href="http://dogecoin.com/getting-started/#desktop-wallet">Dogecoin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img height=40 src="http://i.imgur.com/YEekrxj.png"> <a href="https://mazacoin.org/downloads/">Mazacoin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height=40 src="https://a.thumbs.redditmedia.com/5o05nuc_cPMLzWhNtiSImmm9ueTLcOzQvTOth6vcWs0.jpg"> <a href="http://sourceforge.net/projects/datacoin/files/">Datacoin</a>
+<br><img height=40 src="images\bitcoinlogo.png"> <a href="http://bitcoin.org/en/download">Bitcoin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height=40 src="images\litecoinlogo.png"> <a href="http://litecoin.org/">Litecoin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height=40 src="images\dogecoinsmall.png"> <a href="http://dogecoin.com/getting-started/#desktop-wallet">Dogecoin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img height=40 src="images\mazacoinlogo.png"> <a href="https://mazacoin.org/downloads/">Mazacoin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height=40 src="images\datacoinlogosmall.png"> <a href="http://sourceforge.net/projects/datacoin/files/">Datacoin</a>
 <br>
 <h5>Enable wallet RPC access</h5>
 <p>To enable RPC, create a [CoinName].conf file using notepad, then place it in the Roaming App Data file associated with your wallet.<br>
@@ -86,16 +86,18 @@ rpcpassword=RPC_PASSWORD_CHANGE_ME
 <br>Change the login and password to match the credentials you entered in the [CoinName].conf file.
 <br>Check the Enable Wallet box.
 <br>Click the Save Button.
-<br>NOTE: Do not alter any other settings unless you really know what your doing. (see detailed instructions for more info; adding a coin, etc)</p>
+<br>Note: Alter settings only if you really know what your doing - or are experimenting - see detailed instructions for more info.</p>
 
 <h2>
 <a name="start-archiving-and-exploring" class="anchor" href="#start-archiving-and-exploring"><span class="octicon octicon-link"></span></a>Start Archiving and Exploring</h2>
 <p>Apertus is a blockchain reader/writer that currently uses non-redeemable destination addresses as a free-form 20-byte field to immutably store data onto a blockchain. The data is referenced and retrieved by Apertus using the final transaction id of the process; the root id.
 Coins used are forever burned into the blockchain in a process we call "etching." It may take hundreds, or even thousands, of micro-transactions to archive your data depending on the cryptocurrency you are using and the amount of data you are archiving. Coins used in the archive process cannot be recovered, and once archived, the data cannot be altered in any way.  Make sure you have triple checked your data for errors before archiving.<br>
-<br>
+
+<h5>Archiving</h5>
 After choosing your wallet and account, enter your data into the Enter Your Message Here box.<br> 
-Hit Save, then you just etched.<br>
-<br>Below are a few sample archives of blockpages. Copy and paste these root transaction id's into the Apertus search box and hit enter to restore the archives.<br>NOTE: Apertus must be connected to the blockchains listed for this to work.<br>
+Hit Save - you just etched.
+<h5>Exploring</h5>
+Below are a few sample archives of blockpages. Copy and paste these root transaction id's into the Apertus search box and hit enter to restore the archives.<br>Note: Apertus must be connected to the blockchain listed for this to work.<br>
 <h6>Bitcoin - Nelson Mandela</h6>78f0e6de0ce007f4dd4a09085e649d7e354f70bc7da06d697b167f353f115b8e
 <h6>Bitcoin - The Mahabharata - An example of a series of Blockpages, constituting a Blocksite</h6>0618f12af65a4e82f8e7b41f8578721dfeb109e9a73ff71aebdbc982696e3720
 <h6>Litecoin - China Moon Landing</h6>562c42cf86400db88ea8c5aa9f3de4054fe5e1e4055314b3b6c55282114982c3
@@ -103,7 +105,7 @@ Hit Save, then you just etched.<br>
 <h6>Mazacoin - Fort Laramie Treaty, 1868 (rtf file)</h6>f1a37b1c85bed3f561137789407735084065b41ecfaf262a190c4fdb4c4a278a
 <h6>Bitcoin Testnet - "Flowers of War - US Bombs the World" by Allen Vandever</h6>7b9987b58b372bf491cc0703672a02a74d8a24a8d20d57d22ab32c23851eefec
 <h6>Anoncoin / Litecoin - Blog posting on Anoncoin with Litecoin css include and Image file.</h6>ef0f51c55b3e6efb187cce641b5c5d7e6611680a7af10ed56d06050c3b4b89c8
-<p>NOTE: You will need to uncheck the "Filter unsafe content" box before searching for the sample blog post or it will not display properly.  Also, this Anoncoin blog post uses images and CSS files that were archived on Litecoin. Make sure you Apertus them to your master index first by searching for them on the Litecoin blockchain here 9427bec549b353e4a3d138ad9d291e525a1c69246211eb973e201e23d41e7f1a</p>
+<p>Note: You will need to uncheck the "Filter unsafe content" box before searching for the sample blog post or it will not display properly.  Also, this Anoncoin blog post uses images and CSS files that were archived on Litecoin. Make sure you Apertus them to your master index first by searching for them on the Litecoin blockchain here 9427bec549b353e4a3d138ad9d291e525a1c69246211eb973e201e23d41e7f1a</p>
 </p>
 <p>Happy Blockchaining :)</p>
 
